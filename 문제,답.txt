@@ -1,0 +1,706 @@
+1. What is the ultimate goal of hyperparameter tuning?
+A. To achieve the highest possible accuracy on the training data.
+B. To find the simplest model possible.
+C. To maximize the model's ability to generalize to new, unseen data.
+D. To minimize the training time of the model.
+Answer: C
+
+2. Which NumPy function returns a new array filled with zeros?
+A. np.zeros()
+B. np.empty()
+C. np.ones()
+D. np.random.rand()
+Answer: A
+
+3. What is the potential consequence of using poorly chosen hyperparameters?
+A. The model may underfit the training data.
+B. The model may overfit the training data.
+C. The model may have poor generalization performance.
+D. All of the above
+Answer: D
+
+4. Which of the following is NOT a phenomenon that occurs when underfitting occurs in regression analysis?
+A. Predictive performance on training data is low.
+B. Predictive performance on test data is low.
+C. The model is too simple.
+D. The model overly reflects the training data.
+Answer: D
+
+5. Which of the following is a property of a probability distribution?
+A. The probabilities can be negative.
+B. The sum of all probabilities for every state equals zero.
+C. Probabilities must be greater than 1.
+D. Probabilities lie in the range [0, 1].
+Answer: D
+
+6. What is the primary purpose of feature engineering in machine learning?
+A. To replace machine learning algorithms.
+B. To prepare input data for specific models and improve model performance.
+C. To reduce the need for input datasets.
+D. To automate the entire machine learning process.
+Answer: B
+
+7. Which of the following statistical methods is used to model the relationship between an independent variable and a dependent variable?
+A. Classification
+B. Clustering
+C. Regression
+D. Dimensionality Reduction
+Answer: C
+
+8. What is the main purpose of regularization in regression analysis?
+A. To reduce the complexity of the model and prevent overfitting.
+B. To increase the learning speed of the model.
+C. To increase the interpretability of the model.
+D. To increase the accuracy of the model.
+Answer: A
+
+9. What is a "cost function" (or "loss function") used for?
+A. To quantify the error between predicted and actual values.
+B. To evaluate the performance of a model.
+C. To measure the complexity of a model.
+D. To normalize the input data.
+Answer: A
+
+10. Which of the following is NOT mentioned as a type of missingness?
+A. Missing Completely at Random (MCAR)
+B. Missing at Random (MAR)
+C. Missing by Design (MBD)
+D. Missing Not at Random (MNAR)
+Answer: C
+
+11. What is the primary purpose of studying probability and statistics in the context of Al?
+A. To generate random numbers
+B. To design experiments
+C. To understand data trends and make predictions
+D. To create visual art
+Answer: C
+
+12. What is the range of values after applying min-max normalization?
+A. -1 to 1
+B. 0 to 1
+C. Any range
+D. Depends on the data
+Answer: B
+
+13. What is K-Nearest Neighbors (KNN) imputation?
+A. Imputing with the overall mean
+B. Imputing with the median of the entire dataset
+C. Imputing based on values from similar data points
+D. Imputing with random values
+Answer: C
+
+14. What is the result of transposing a matrix?
+A. Swapping the rows and columns
+B. Multiplying the matrix by its inverse
+C. Adding the matrix to itself
+D. Dividing the matrix by a scalar
+Answer: A
+
+15. What is the maximum value of the coefficient of determination (R-squared) in regression analysis?
+A. 0
+B. 0.5
+C. 1
+D. Infinity
+Answer: C
+
+16. Which encoding method is suitable for cyclical data?
+A. One-Hot Encoding
+B. Label Encoding
+C. Sine/Cosine Encoding
+D. Ordinal Encoding
+Answer: C
+
+17. What is the potential issue with using the day of the year directly as a feature in a machine learning model?
+A. It can lead to overfitting.
+B. It doesn't capture the cyclical nature of time.
+C. It increases computational complexity.
+D. It always results in poor model performance.
+Answer: B
+
+18. Which of the following is an example of a discrete random variable?
+A. Height of a building
+B. Temperature of a room
+C. Number of cars passing a point on a highway
+D. Time it takes to run a marathon
+Answer: C
+
+19. What is a potential drawback of second-order optimization methods like Newton-Raphson?
+A. They are computationally less expensive than first-order methods.
+B. They do not use gradient information.
+C. They can be computationally expensive.
+D. They are guaranteed to find the global minimum.
+Answer: C
+
+20. Which feature selection method evaluates features independently of each other?
+A. Wrapper methods
+B. Embedded methods
+C. Filter methods
+D. Hybrid methods
+Answer: C
+
+21. What is the main purpose of Exploratory Data Analysis (EDA)?
+A. To build machine learning models
+B. To clean and preprocess data
+C. To understand data characteristics and relationships
+D. To generate reports
+Answer: C
+
+22. What should be the first step in handling missing data?
+A. Applying the latest imputation technique
+B. Deleting rows with missing values
+C. Understanding the reason behind the missingness
+D. Calculating the mean of the column
+Answer: C
+
+23. What happens to the ratio of (number of occurrences of an event / number of trials) as the number of trials increases?
+A. It decreases.
+B. It increases.
+C. It fluctuates randomly.
+D. It converges to the probability.
+Answer: D
+
+24. What is the result of the outer product of two vectors?
+A. A scalar
+B. A vector
+C. A matrix
+D. A tensor
+Answer: C
+
+25. Which NumPy function returns a new array filled with ones?
+A. np.zeros()
+B. np.empty()
+C. np.ones()
+D. np.random.rand()
+Answer: C
+
+26. Which of the following is NOT a major assumption used in regression analysis?
+A. Linearity
+B. Normality
+C. Homoscedasticity
+D. Non-repeatability
+Answer: D
+
+27. What is the primary purpose of hyperparameter tuning in machine learning?
+A. To improve the model's ability to fit the training data.
+B. To optimize the model's performance on unseen data.
+C. To reduce the complexity of the model.
+D. To speed up the training process.
+Answer: B
+
+28. What is the probability mass function (PMF) used for?
+A. Describing probability distributions over continuous variables
+B. Describing probability distributions over discrete variables
+C. Calculating the average value of a random variable
+D. Determining the likelihood of an event occurring
+Answer: B
+
+29. Why is it important that the test set is separate from the training set?
+A. To ensure the model trains faster.
+B. To prevent the model from memorizing the training data and failing to generalize.
+C. To allow for hyperparameter tuning.
+D. It's not important; the test set can overlap with the training set.
+Answer: B
+
+30. What is the main reason for performing residual analysis in regression analysis?
+A. To evaluate the complexity of the model
+B. To detect and remove outliers
+C. To improve the predictive performance of the model
+D. To verify the assumptions of the regression model
+Answer: D
+
+31. Which of the following is NOT a way to improve the predictive performance of a regression model?
+A. Collect more data.
+B. Remove outliers.
+C. Increase the complexity of the model.
+D. Select appropriate features.
+Answer: C
+
+32. Which function is used to create an array with evenly spaced values?
+A. np.empty()
+B. np.zeros()
+C. np.ones()
+D. np.linspace()
+Answer: D
+
+33. What is the basic principle behind Gradient Descent?
+A. Randomly searching for the best parameters.
+B. Iteratively updating parameters in the direction of the steepest descent of the cost function.
+C. Calculating the inverse of the Hessian matrix.
+D. Using linear algebra to solve for the optimal parameters directly.
+Answer: B
+
+34. Which of the following is a common technique for encoding categorical variables?
+A. Linear Regression
+B. Principal Component Analysis
+C. One-Hot Encoding
+D. Fourier Transform
+Answer: C
+
+35. What is the shape of a matrix resulting from the inner product of two vectors with shapes $(n\times1)$ and $(m\times1)$?
+A. (1 x 1)
+B. $(n\times m)$
+C. $(m\times n)$
+D. Impossible
+Answer: A
+
+36. Which of the following is NOT a typical activity in EDA?
+A. Summarizing data features
+B. Building predictive models
+C. Detecting patterns
+D. Uncovering relationships
+Answer: B
+
+37. Which of the following is NOT a statistical concept used in regression analysis?
+A. Mean
+B. Variance
+C. Standard Deviation
+D. Mode
+Answer: D
+
+38. Which algorithm is mentioned as a second-order optimization method?
+A. ADAM
+B. RMSprop
+C. Newton-Raphson
+D. Momentum
+Answer: C
+
+39. Which of the following is a challenge when using Gradient Descent?
+A. Getting stuck in local minima.
+B. Slow convergence.
+C. Computationally expensive
+D. All of the above.
+Answer: D
+
+40. Which method is generally preferred for hyperparameter tuning when computational resources are limited?
+A. Grid Search
+B. Bayesian Optimization
+C. Exhaustive Search
+D. All of the above
+Answer: B
+
+41. What does the term "dimensionality" refer to in the context of data?
+A. The size of the dataset.
+B. The number of features in the dataset.
+C. The complexity of the model.
+D. The range of values in a feature.
+Answer: B
+
+42. Which of the following is NOT an application area of regression analysis?
+A. Stock price prediction
+B. Customer churn prediction
+C. Sales prediction
+D. Temperature prediction
+Answer: B
+
+43. How is the equation form generally expressed for predicting the dependent variable in regression analysis?
+A. y = mx + b (Simple linear regression)
+B. y = a + b1x1 + b2x2+. . . +bnxn (Multiple linear regression)
+C. y = a + bx2 (Polynomial regression)
+D. All of the above
+Answer: D
+
+44. Which of the following best describes the "test set" in a Train-Validation-Test Split?
+A. The portion of the data used to train the machine learning model.
+B. The portion of the data used to validate the model during training.
+C. The portion of the data used to evaluate the final performance of the trained model.
+D. A separate dataset used for initial data exploration.
+Answer: C
+
+45. What is the primary goal of parameter estimation in machine learning?
+A. To select the best features for a model.
+B. To evaluate model performance.
+C. To preprocess the input data.
+D. To determine the optimal values for model parameters.
+Answer: D
+
+46. What does the probability mass function (PMF) describe?
+A. Probability distribution over continuous random variables
+B. Probability distribution over discrete random variables
+C. The likelihood of an event occurring
+D. The average value of a random variable
+Answer: B
+
+47. What is the main advantage of filter methods?
+A. They consider feature dependencies.
+B. They are computationally efficient.
+C. They optimize feature selection for a specific model.
+D. They are highly accurate.
+Answer: B
+
+48. Which of the following is an example of a filter method?
+A. Recursive Feature Elimination (RFE)
+B. LASSO regression
+C. Sequential Forward Selection (SFS)
+D. Chi-square test
+Answer: D
+
+49. Which of the following statements about simple linear regression analysis is correct?
+A. Encoding of categorical independent variables is not required.
+B. The dependent variable is categorical.
+C. The relationship between the dependent and independent variables is linear.
+D. Residuals do not follow a normal distribution.
+Answer: C
+
+50. In the context of MLE, what is "likelihood"?
+A. The probability of the parameters given the data.
+B. The probability of the data given the parameters.
+C. The error between predicted and actual values.
+D. The complexity of the model.
+Answer: B
+
+51. What is the relationship between parameter estimation and model performance?
+A. Parameter estimation is independent of model performance.
+B. Better parameter estimation generally leads to improved model performance.
+C. Parameter estimation only affects model complexity.
+D. Parameter estimation is only relevant for linear models.
+Answer: B
+
+52. What does the ndarray.ndim attribute store?
+A. The shape of the array
+B. The number of elements in the array
+C. The number of dimensions of the array
+D. The data type of the array elements
+Answer: C
+
+53. Which of the following is NOT a property of a vector space?
+A. Closed under vector addition
+B. Closed under scalar multiplication
+C. Contains a zero vector
+D. The sum of vectors is not in the space
+Answer: D
+
+54. Which attribute of a NumPy array stores its shape?
+A. ndim
+B. size
+C. shape
+D. dtype
+Answer: C
+
+55. Which of the following is a drawback of using feature selection?
+A. Improved model accuracy.
+B. Increased model complexity.
+C. Potential loss of information.
+D. Reduced training time.
+Answer: C
+
+56. Which of the following is NOT a method to prevent overfitting?
+A. Collect more data.
+B. Reduce the complexity of the model.
+C. Use regularization.
+D. Increase the number of features.
+Answer: D
+
+57. What is the ultimate goal of parameter estimation and optimization in machine learning?
+A. To create the most complex model possible.
+B. To find the parameters that result in the best possible model performance on the given task.
+C. To reduce the size of the dataset.
+D. To eliminate the need for machine learning algorithms.
+Answer: B
+
+58. What is a "local minimum" in the context of optimization?
+A. The lowest possible value of the cost function.
+B. A point where the cost function is lower than all nearby points.
+C. The average value of the cost function.
+D. The starting point of the Gradient Descent algorithm.
+Answer: B
+
+59. What is a potential drawback of mean imputation?
+A. It can distort the original distribution.
+B. It is computationally expensive.
+C. It cannot be used for numerical data.
+D. It always leads to improved model performance.
+Answer: A
+
+60. What is a "global minimum" in the context of optimization?
+A. A point where the cost function is lower than all nearby points.
+B. The average value of the cost function.
+C. The lowest possible value of the cost function over the entire parameter space.
+D. The starting point of the Gradient Descent algorithm.
+Answer: C
+
+61. Which of the following is a correct property of transpose?
+A. (A + B) = AT - BT
+B. (AB) = ATBT
+C. $(A^{T})^{T}=A$
+D. (CA) = CA
+Answer: C
+
+62. Why is imputation a crucial step in data preprocessing?
+A. To increase the number of data points
+B. To reduce the dimensionality of the data
+C. To ensure compatibility with machine learning algorithms
+D. To standardize the data distribution
+Answer: C
+
+63. Which of the following is an example of an embedded method?
+A. Chi-square test
+B. L1 regularization (LASSO)
+C. Mutual information
+D. Sequential Backward Selection (SBS)
+Answer: B
+
+64. Which machine learning algorithms are most sensitive to feature scaling?
+A. Tree-based algorithms
+B. Distance-based algorithms and gradient descent-based algorithms
+C. Rule-based algorithms
+D. Support Vector Regression
+Answer: B
+
+65. What is the result of the dot product of two vectors?
+A. A scalar
+B. A vector
+C. A matrix
+D. A tensor
+Answer: A
+
+66. What does Grid Search involve?
+A. Randomly selecting hyperparameter values.
+B. Searching through a predefined set of hyperparameter combinations.
+C. Using a gradient-based optimization algorithm.
+D. Evaluating the model on a single validation set.
+Answer: B
+
+67. Which of the following is NOT a common technique for hyperparameter tuning?
+A. Grid Search
+B. Random Search
+C. Gradient Descent
+D. Cross-Validation
+Answer: C
+
+68. What is a simple imputation method for numerical data?
+A. Replacing with the largest value
+B. Replacing with a random value
+C. Replacing with the mean or median
+D. Deleting the entire column
+Answer: C
+
+69. What is a tensor?
+A. A 1-dimensional array
+B. A 2-dimensional array
+C. A generalization of vectors and matrices to n dimensions
+D. A scalar value
+Answer: C
+
+70. What is the potential drawback of using dummy encoding?
+A. It can create a large number of features.
+B. It is not suitable for categorical data.
+C. It loses information about the order of categories.
+D. It is computationally expensive.
+Answer: A
+
+71. When is polynomial regression used in regression analysis?
+A. When the relationship between the dependent and independent variables is linear
+B. When there are multiple dependent variables
+C. When the dependent variable is categorical
+D. When the relationship between the dependent and independent variables is curvilinear
+Answer: D
+
+72. What is multiple imputation?
+A. Imputing missing values only once'
+B. Imputing missing values with the mode
+C. Creating multiple plausible imputations for each missing value
+D. Imputing all values with the same constant
+Answer: C
+
+73. What is the "learning rate" in Gradient Descent?
+A. The number of iterations the algorithm runs.
+B. The rate at which the cost function decreases.
+C. A parameter that controls the step size at each iteration.
+D. The complexity of the model.
+Answer: C
+
+74. If the probability of event A occurring is 0.3, what is the probability of the complementary event (A not occurring)?
+A. 0.3
+B. 0.6
+C. 0.7
+D. 1.3
+Answer: C
+
+75. Which of the following is an example of a hyperparameter that might be tuned in a machine learning model?
+A. The input features used for training.
+B. The weights learned by the model during training.
+C. The learning rate of the model.
+D. The target variable being predicted.
+Answer: C
+
+76. Which of the following is an example of a wrapper method?
+A. Information gain
+B. Feature importance
+C. Sequential Forward Selection (SFS)
+D. Variance Thresholding
+Answer: C
+
+77. How does Cross-Validation help in hyperparameter tuning?
+A. By providing a single, definitive measure of model performance.
+B. By reducing the need for a separate validation set.
+C. By estimating model performance on multiple subsets of the data.
+D. By speeding up the training process.
+Answer: C
+
+78. Which of the following is an assumption of a linear regression model?
+A. Residuals follow a normal distribution.
+B. Independent variables are independent of each other.
+C. The relationship between the dependent and independent variables is linear.
+D. All of the above
+Answer: D
+
+79. Which of the following is a potential problem with using a single validation set for hyperparameter tuning?
+A. It can lead to overfitting to the validation set.
+B. It always underestimates the model's generalization performance.
+C. It is computationally too expensive.
+D. It does not provide a reliable estimate of model performance.
+Answer: A
+
+80. Why is feature selection important when dealing with high-dimensional data?
+A. To increase model accuracy.
+B. To reduce the risk of overfitting and improve model interpretability.
+C. To add more features to the dataset.
+D. To make the model more complex.
+Answer: B
+
+81. What is the main purpose of encoding variables?
+A. To reduce the size of the dataset
+B. To convert categorical data into a numerical format
+C. To visualize data distributions
+D. To improve data cleaning
+Answer: B
+
+82. What is the shape of a matrix resulting from the outer product of two vectors with shapes $(n\times1)$ and $(m\times1)?$
+A. (1 x 1)
+B. $(n \times m)$
+C. $(m \times n)$
+D. $(n \times 1)$
+Answer: B
+
+83. In a regression model, how does the explanatory power of the model change as the R-squared value approaches 1?
+A. Increases.
+B. Decreases.
+C. Does not change.
+D. Cannot be determined.
+Answer: A
+
+84. Which feature selection method incorporates feature selection into the model training process?
+A. Embedded methods
+B. Wrapper methods
+C. Filter methods
+D. Hybrid methods
+Answer: A
+
+85. What does "optimization" generally refer to in the context of training in machine learning?
+A. Finding the simplest model.
+B. Adjusting hyperparameters.
+C. The process of finding the best parameters to minimize a cost function.
+D. Increasing the size of the dataset.
+Answer: C
+
+86. What might happen if the learning rate is set too high in Gradient Descent?
+A. The algorithm will converge very quickly.
+B. The algorithm may oscillate or diverge and fail to find the minimum.
+C. The algorithm will find the global minimum for sure.
+D. The algorithm will be unaffected.
+Answer: B
+
+87. Why is imputing missing values important in feature engineering?
+A. To reduce the number of features
+B. To improve model training speed
+C. Because many machine learning algorithms do not support missing values
+D. To standardize the range of data
+Answer: C
+
+88. When is a non-linear regression model appropriate?
+A. When the relationship between the dependent and independent variables is linear
+B. When the independent variables are independent of each other
+C. When the residuals follow a normal distribution
+D. When the relationship between the dependent and independent variables is curvilinear
+Answer: D
+
+89. What is a common problem that Train-Validation-Test Split helps to address?
+A. High computational cost of training.
+B. Bias in the training data.
+C. Overfitting of the model.
+D. Lack of data for training.
+Answer: C
+
+90. What does the ndarray.ndim attribute store?
+A. The shape of the array
+B. The number of elements in the array
+C. The number of dimensions of the array
+D. The data type of the array elements
+Answer: C
+
+91. In regression analysis, what does the residual mean?
+A. The difference between the actual and predicted values of the independent variable
+B. The difference between the actual and predicted values of the dependent variable
+C. The correlation between the independent and dependent variables
+D. The complexity of the regression model
+Answer: B
+
+92. What should you do if you are unsure whether to normalize or standardize your data?
+A. Always normalize.
+B. Always standardize.
+C. Fit the model to raw, normalized, and standardized data and compare performance.
+D. Choose the technique based on the number of features.
+Answer: C
+
+93. Which of the following is NOT a metric used to evaluate the performance of a regression model?
+A. Mean Squared Error (MSE)
+B. Accuracy
+C. Mean Absolute Error (MAE)
+D. Coefficient of Determination (R-squared)
+Answer: B
+
+94. Which of the following is the correct formula for calculating the dot product of two vectors a and b?
+A. $a^{*}b$
+B. a@b
+C. axb
+D. $a+b$
+Answer: B
+
+95. What does EDA stand for?
+A. Exploratory Data Analysis
+B. Encoding Data Analysis
+C. Essential Data Attributes
+D. External Data Aggregation
+Answer: A
+
+96. What is the primary purpose of using Train-Validation-Test Split in machine learning?
+A. To increase the amount of data available for training the model.
+B. To evaluate the model's performance on unseen data and prevent overfitting.
+C. To tune the hyperparameters of the model.
+D. To speed up the training process.
+Answer: B
+
+97. Which of the following is NOT a common feature scaling technique?
+A. Standardization
+B. Normalization
+C. Polynomial expansion
+D. Min-Max scaling
+Answer: C
+
+98. What is the mean and standard deviation of the data after applying standardization?
+A. Mean $=1$, Standard Deviation $=0$
+B. $Mean=0$, Standard Deviation $=1$
+C. Mean and Standard Deviation are unchanged
+D. $Mean=0$, Standard Deviation varies
+Answer: B
+
+99. What does multicollinearity mean in regression analysis?
+A. The phenomenon where independent variables have a high correlation with each other
+B. The phenomenon where there are multiple dependent variables
+C. The phenomenon where the regression model is non-linear
+D. A characteristic of a dataset with many outliers
+Answer: A
+
+100. In regression analysis, what type of values are typically used to represent the independent variable?
+A. Categorical
+B. Discrete
+C. Continuous
+D. Binary
+Answer: C
+
+101. What is a key advantage of Random Search over Grid Search?
+A. It is guaranteed to find the optimal hyperparameters.
+B. It is computationally less expensive.
+C. It explores all possible hyperparameter combinations.
+D. It always finds better hyperparameters than Grid Search.
+Answer: B
